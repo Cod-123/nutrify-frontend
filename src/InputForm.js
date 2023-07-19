@@ -12,7 +12,7 @@ function InputForm() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    axios.post('http://localhost:5000/predict', {
+    axios.post('https://nutrify-backend.onrender.com/predict', {
       height: height,
       weight: weight,
       age: age,
